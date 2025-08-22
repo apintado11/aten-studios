@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -24,9 +24,7 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-custom-primary transition-colors">
-                                    API
-                                </a>
+                                <span className="text-custom-secondary">API (Coming Soon)</span>
                             </li>
                         </ul>
                     </div>
@@ -44,9 +42,7 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-custom-primary transition-colors">
-                                    Careers
-                                </a>
+                                <span className="text-custom-secondary">Careers (Coming Soon)</span>
                             </li>
                         </ul>
                     </div>
@@ -54,19 +50,13 @@ const Footer = () => {
                         <h4 className="font-semibold text-custom-primary mb-4">Support</h4>
                         <ul className="space-y-2 text-custom-secondary">
                             <li>
-                                <a href="#" className="hover:text-custom-primary transition-colors">
-                                    Help Center
-                                </a>
+                                <span className="text-custom-secondary">Help Center (Coming Soon)</span>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-custom-primary transition-colors">
-                                    Documentation
-                                </a>
+                                <span className="text-custom-secondary">Documentation (Coming Soon)</span>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-custom-primary transition-colors">
-                                    Status
-                                </a>
+                                <span className="text-custom-secondary">Status (Coming Soon)</span>
                             </li>
                         </ul>
                     </div>

@@ -6,18 +6,15 @@ import { sleep } from '../../../utils/helpers';
 
 const LogoGeneratorDemo = () => {
     const [currentStep, setCurrentStep] = useState(1);
-    const [uploadedImage, setUploadedImage] = useState(null);
     const [selectedStyle, setSelectedStyle] = useState(null);
     const [isGenerating, setIsGenerating] = useState(false);
 
     const handleImageUpload = async (file) => {
-        setUploadedImage(file);
         await sleep(1000);
         setCurrentStep(2);
     };
 
     const handleUseSample = async () => {
-        setUploadedImage('sample');
         await sleep(1000);
         setCurrentStep(2);
     };
@@ -35,7 +32,6 @@ const LogoGeneratorDemo = () => {
 
     const handleReset = () => {
         setCurrentStep(1);
-        setUploadedImage(null);
         setSelectedStyle(null);
         setIsGenerating(false);
     };
